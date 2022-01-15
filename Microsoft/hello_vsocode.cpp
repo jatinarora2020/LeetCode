@@ -4,6 +4,6 @@ using namespace std;
 int main()
 {
     int Hello = 10;
-    cout << "My First VsCode with github sync \n" << Hello;
+    cout << "My First VsCode with github sync 2 \n" << Hello;
     return 0;
 }
