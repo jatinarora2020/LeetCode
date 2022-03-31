@@ -3,13 +3,14 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
-            "command": "C:\\MinGW\\bin\\g++.exe",
+            "command": "C:/msys64/mingw64/bin/g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
-                "-g",
+                "-std=c++11",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-pthread"
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -23,7 +24,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file ver(1)",
-            "command": "C:\\MinGW\\bin\\g++.exe",
+            "command": "C:/msys64/mingw64/bin/g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -43,7 +44,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file ver(2)",
-            "command": "C:\\MinGW\\bin\\g++.exe",
+            "command": "C:/msys64/mingw64/bin/g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
